@@ -52,8 +52,8 @@ footer {
 }
 
 .minha_foto {
-  height: 60px;
-  width: 60px;
+  height: 50px;
+  width: 50px;
 }
 
 .sobre {
@@ -95,6 +95,34 @@ footer {
 .img_tecnologias {
   height: 50px;
   width: 50px;
+}
+
+.projetos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 280px;
+}
+
+.projetos_titulo {
+  height: 100px;
+  width: 1200px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 130px;
+
+  background-color: black;
+  border-radius: 20px;
+}
+
+.projetos_titulo_texto {
+  color: white;
+
+  font-size: 45px;
+  font-weight: bold;
+  letter-spacing: 15px;
 }
 
 .projeto_um,
