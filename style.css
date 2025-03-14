@@ -1,155 +1,150 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #f5f5f5;
-    color: black;
-    font-family: "Lexend";
+  background-color: #f5f5f5;
+  color: black;
+  font-family: "Lexend";
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 60px;
-    padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  padding: 40px;
 
-    background-color: black;
-    border-bottom: 1px solid lightgray;
+  background-color: black;
+  border-bottom: 1px solid lightgray;
 }
 
 nav {
-    width: 400px;
-    display: flex;
-    justify-content: space-between;
+  width: 400px;
+  display: flex;
+  justify-content: space-between;
 }
 
 a {
-    color: #E9E9E9;
-    text-decoration: none;
+  color: #e9e9e9;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 50px;
+  font-size: 50px;
 }
 
 p {
-    font-size: 17px;
+  font-size: 17px;
 }
 
 footer {
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: center;
-    height: 150px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  height: 150px;
 
-    color: #E9E9E9;
-    background-color: black;
+  color: #e9e9e9;
+  background-color: black;
 }
 
 .minha_foto {
-    height: 60px;
-    width: 60px;
+  height: 60px;
+  width: 60px;
 }
 
 .sobre {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 350px;
-    padding: 80px 100px 0px 100px;
-    margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 350px;
+  padding: 80px 100px 0px 100px;
+  margin-bottom: 100px;
 }
 
 .sobre__apresentacao {
-    height: 250px;
-    width: 600px;
+  height: 250px;
+  width: 600px;
 }
 
 .sobre_texto__apresentacao {
-    margin: 10px 0px 0px 40px;
-    text-align: justify;
-    line-height: 25px;
+  margin: 10px 0px 0px 40px;
+  text-align: justify;
+  line-height: 25px;
 }
 
 .foto,
 .foto_principal {
-    height: 300px;
-    width: 300px;
+  height: 300px;
+  width: 300px;
 }
 
 .tecnologias {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
 
-    height: 100px;
-    margin-bottom: 100px;
+  height: 100px;
+  margin-bottom: 100px;
 }
 
 .img_tecnologias {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
 
 .projeto_um,
 .projeto_dois,
 .projeto_tres {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    height: 500px;
-    margin-bottom: 100px;
-
-    border: 1px solid lightgray;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 500px;
+  margin-bottom: 100px;
 }
 
 .projeto_um_imagem,
 .projeto_dois_imagem,
 .projeto_tres_imagem {
-    height: 500px;
-    width: 500px;
+  height: 500px;
+  width: 500px;
 
-    background-image: url(./images/codigo_dois.jpeg);
-    background-size: cover;
-
-    border: 1px solid black;
+  background-image: url(./images/ingressos_api.png);
+  background-size: cover;
+  border-radius: 20px;
 }
 
 .projeto_um_descricao,
 .projeto_dois_descricao,
 .projeto_tres_descricao {
-    height: 500px;
-    width: 400px;
-
-    border: 1px solid black;
+  height: 500px;
+  width: 400px;
 }
 
 .footer_contato {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
 }
 
 .logo_email {
-    height: 28px;
-    width: 28px;
+  height: 28px;
+  width: 28px;
 }
 
 .logo_whatsapp {
-    height: 20px;
-    width: 20px;
+  height: 20px;
+  width: 20px;
 }
 
 .github_logo,
 .linkedin_logo,
 .email_logo {
-    height: 50px;
-    width: 50px;
+  height: 50px;
+  width: 50px;
 }
