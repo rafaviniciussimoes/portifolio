@@ -22,9 +22,11 @@ header {
 }
 
 nav {
-  width: 400px;
+  width: 250px;
+  height: 60px;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 a {
@@ -54,6 +56,11 @@ footer {
 .minha_foto {
   height: 50px;
   width: 50px;
+}
+
+.logo_contato {
+  width: 50px;
+  height: 50px;
 }
 
 .sobre {
@@ -105,7 +112,7 @@ footer {
 }
 
 .projetos_titulo {
-  height: 100px;
+  height: 80px;
   width: 1200px;
 
   display: flex;
@@ -151,6 +158,33 @@ footer {
 .projeto_tres_descricao {
   height: 500px;
   width: 400px;
+}
+
+.titulo_descricao {
+  margin-bottom: 20px;
+}
+
+.texto_descricao {
+  height: 320px;
+}
+
+.documentacao {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.logo_documentacao {
+  width: 60px;
+  height: 60px;
+}
+
+.link_documentacao {
+  color: black;
 }
 
 .footer_contato {
